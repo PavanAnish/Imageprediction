@@ -35,8 +35,8 @@ def main():
     st.markdown("""
         <style>
         .stApp {
-         background: linear-gradient(135deg, #020024, #090979, #00d4ff);
-    }
+   background: #010338;
+background: radial-gradient(circle,rgba(1, 3, 56, 0.8) 0%, rgba(86, 75, 204, 1) 56%, rgba(0, 0, 0, 1) 100%);
 on streamlit</style>
 """, unsafe_allow_html=True)
 
