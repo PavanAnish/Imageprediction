@@ -32,9 +32,17 @@ def classify_image(model, image):
         return None
     
 def main():
-    st.set_page_config(page_title="AI Image Classifier", page_icon="🖼️", layout="centered")
+    st.markdown("""
+        <style>
+        .stApp {
+         background: linear-gradient(135deg, #020024, #090979, #00d4ff);
+    }
+on streamlit</style>
+""", unsafe_allow_html=True)
+
+    st.set_page_config(page_title="AI Image Prediction", page_icon="🦆", layout="centered")
     
-    st.title("AI Image Classifier")
+    st.title("AI Image Predictionr")
     st.write("Upload an image and let AI tell you what is in it!")
     
     @st.cache_resource
