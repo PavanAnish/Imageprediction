@@ -42,7 +42,7 @@ on streamlit</style>
 
     st.set_page_config(page_title="AI Image Prediction", page_icon="🦆", layout="centered")
     
-    st.title("AI Image Predictionr")
+    st.title("AI Image Prediction 🦆")
     st.write("Upload an image and let AI tell you what is in it!")
     
     @st.cache_resource
